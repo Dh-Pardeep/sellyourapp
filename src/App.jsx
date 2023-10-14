@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import Hero from './components/homepage/Hero'
+import "./App.css";
+import Explore from "./components/Explore";
+import WhyUs from "./components/WhyUs";
 
 function App() {
-
   return (
     <>
-     <Hero/>
+      <WhyUs />
+      <Explore />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
