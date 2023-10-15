@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
 .Sell_bg{
 background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
+}
+
+/* =========AboutYou Section============= */
+.about_bg { 
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(30px);
+}
+
+.submit_btn {
+    background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
+}
+
+.about_text {
+    background: var(--prime, linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* =========AboutYou Section End============= */
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px !important;
+    }
 }
