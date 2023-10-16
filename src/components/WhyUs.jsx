@@ -4,6 +4,7 @@ import cash from "../assets/images/webp/cash.webp";
 import price from "../assets/images/webp/price.webp";
 import process from "../assets/images/webp/process.webp";
 import vibes from "../assets/images/webp/vibes.webp";
+
 const WhyUs = () => {
   return (
     <div className="bg-black">
@@ -87,7 +88,7 @@ const WhyUs = () => {
           </div>
         </div>
         <div className="flex justify-center mt-20 pb-[75px]">
-          <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600">
+          <div className="px-10 cursor-pointer rounded-[38px] py-4 inline-block bg-gradient-to-r from-red-500 to-indigo-600 hover:from-indigo-800 hover:to-red-700 delay-1000">
             <button className="text-white font-Manrope font-normal text-xm">
               SellYourApp
             </button>

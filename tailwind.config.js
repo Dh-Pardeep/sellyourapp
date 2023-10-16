@@ -38,6 +38,10 @@ export default {
         "dark": "#ICICIC",
         "black-light": "#969696",
       },
+      backgroundImage: {
+        "bgimg1": "url('../assets/imgages/png/bg-img-rb.png')"
+        
+      }
     },
   },
   plugins: [],
