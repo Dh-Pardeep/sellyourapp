@@ -35,14 +35,14 @@ background: linear-gradient(102deg, #FF3939 -4.42%, #4844F2 103.64%);
     }
 
 }
-.navbar {
+/* .navbar {
 	transition: background-color 0.3s ease-in-out;
 }
 
 .navbar.scrolling {
 	background-color: #fff;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
+} */
 
 @media (max-width:991.9px) {
     .nav_sm {
