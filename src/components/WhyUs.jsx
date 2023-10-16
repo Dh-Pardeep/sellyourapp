@@ -21,27 +21,25 @@ const WhyUs = () => {
             offer and a smooth selling process.
           </p>
         </div>
-        <div className="lg:flex gap-[54px]">
+        <div className="lg:flex gap-[70px]">
           <div className="flex justify-center">
-            <div className="md:flex gap-[54px]">
+            <div className="md:flex gap-[70px]">
               <div className="flex justify-center">
-                <div className="sm:flex gap-[54px]">
+                <div className="sm:flex gap-[70px]">
                   <div className="mt-20">
                     <div className="flex justify-center">
                       <img className="max-w-[133px]" src={great} alt="cash" />
                     </div>
-                    <div className="text-center mt-5">
-                      <p className="text-dark-gray font-Inter font-normal text-xm max-w-[220px]">
-                        We guarantee 14 days from contact to exit
-                      </p>
-                    </div>
+                    <p className="text-center mt-5 text-dark-gray font-Inter font-normal text-xm max-w-[220px]">
+                      We guarantee 14 days from contact to exit
+                    </p>
                   </div>
-                  <div className="mt-20">
-                    <div className="flex justify-center">
-                      <img className="max-w-[133px]" src={cash} alt="cash" />
-                    </div>
-                    <div className="text-center mt-5">
-                      <p className="text-dark-gray font-Inter font-normal text-xm max-w-[189px]">
+                  <div className="flex justify-center">
+                    <div className="mt-20">
+                      <div className="flex justify-center">
+                        <img className="max-w-[133px]" src={cash} alt="cash" />
+                      </div>
+                      <p className="text-center mt-5 text-dark-gray font-Inter font-normal text-xm max-w-[189px]">
                         Full cash offer, get paid immediately
                       </p>
                     </div>
@@ -53,33 +51,29 @@ const WhyUs = () => {
                   <div className="flex justify-center">
                     <img className="max-w-[133px]" src={price} alt="cash" />
                   </div>
-                  <div className="text-center mt-5">
-                    <p className="text-dark-gray font-Inter font-normal text-xm max-w-[153px]">
-                      Best price/valuation guarantee
-                    </p>
-                  </div>
+                  <p className="text-center mt-5 text-dark-gray font-Inter font-normal text-xm max-w-[153px]">
+                    Best price/valuation guarantee
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="sm:flex gap-[54px]">
+            <div className="sm:flex gap-[70px]">
               <div className="mt-20">
                 <div className="flex justify-center">
                   <img className="max-w-[133px]" src={vibes} alt="cash" />
                 </div>
-                <div className="text-center mt-5">
-                  <p className="text-dark-gray font-Inter font-normal text-xm max-w-[203px]">
-                    Good vibes only. We value human connections.
-                  </p>
-                </div>
+                <p className="text-center mt-5 text-dark-gray font-Inter font-normal text-xm max-w-[203px]">
+                  Good vibes only. We value human connections.
+                </p>
               </div>
-              <div className="mt-20">
-                <div className="flex justify-center">
-                  <img className="max-w-[133px]" src={process} alt="cash" />
-                </div>
-                <div className="text-center mt-5">
-                  <p className="text-dark-gray font-Inter font-normal text-xm max-w-[158px]">
+              <div className="flex justify-center">
+                <div className="mt-20">
+                  <div className="flex justify-center">
+                    <img className="max-w-[133px]" src={process} alt="cash" />
+                  </div>
+                  <p className="text-center mt-5 text-dark-gray font-Inter font-normal text-xm max-w-[158px]">
                     Simple process, zero complexity
                   </p>
                 </div>
