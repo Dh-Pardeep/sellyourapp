@@ -31,11 +31,15 @@ export default {
         "dark-gray": "#b7b3bb",
         "light-gray": "#9f9fa0",
         "gray": "#ceccd0",
-        "black": "#0f021d",
+        "style-bg": "#0f021d",
         "dark-black": "#0c0216",
         "dark": "#ICICIC",
         "black-light": "#969696",
       },
+      backgroundImage: {
+        "bgimg1": "url('../assets/imgages/png/bg-img-rb.png')"
+        
+      }
     },
   },
   plugins: [],
