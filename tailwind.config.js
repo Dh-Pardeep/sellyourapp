@@ -14,12 +14,14 @@ export default {
       "xl": "60px"
     },
     container: {
-      padding: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "4rem",
-        xl: "25px",
-        "2xl": "6rem",
+      center: true,
+      padding: '1rem',
+      screens: {
+        sm: '575.9px',
+        md: '767.9px',
+        lg: '991.9px',
+        xl: '1200px',
+        'xxl': '1400px',
       },
     },
     fontFamily: {

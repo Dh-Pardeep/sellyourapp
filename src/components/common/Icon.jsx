@@ -8,3 +8,24 @@ export const ArrowIcon = () => {
         </div>
     )
 }
+export const LogoIcon = () => {
+    return (
+        <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="48.7143" height="35.4286" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_791_190" transform="matrix(0.000861698 0 0 0.00118483 0.00844464 0)"/>
+        </pattern>
+        </defs>
+        </svg>
+        
+    )
+}
+
+export const Name = () => {
+    return (
+        <div>
+          
+        </div>
+    )
+}
